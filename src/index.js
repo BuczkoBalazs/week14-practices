@@ -9,8 +9,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header to="This is the end of the Header, mon!"/> 
-    <ButtonWithClass />
-    {/* <ButtonWithHooks />   */}
+    {/* <ButtonWithClass /> */}
+    <ButtonWithHooks />  
   </React.StrictMode>
 );
 
